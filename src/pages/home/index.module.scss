@@ -1,8 +1,29 @@
 .mainContainer {
-  margin: 30px auto;
+  margin: 0 auto;
 }
 
 .searchSection {
   display: flex;
   width: 100%;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.topFilterSection {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  gap: 80px;
+  background-color: #fff;
+}
+.topFilterContainer {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+@media (max-width: 767px) {
+  .topFilterContainer {
+    gap: 40px;
+  }
 }

@@ -12,6 +12,8 @@
 }
 
 body {
+  font-family: Roboto;
+  background-color: #e5e5e5;
 }
 
 input {
@@ -30,8 +32,9 @@ input:focus {
   max-width: 1024px;
 }
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
   .container {
+    margin: 0 auto;
     width: 90%;
   }
-} */
+}

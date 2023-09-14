@@ -1,0 +1,31 @@
+.filterContainer {
+  border-bottom: 2px solid #fff;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filterContainer:hover {
+  border-bottom: 2px solid var(--secondaryColor);
+  fill: var(--secondaryColor);
+  color: var(--secondaryColor);
+}
+.filterContainer:hover .filterItem {
+  fill: var(--secondaryColor);
+}
+
+.filterItem {
+  width: 35px;
+  height: 35px;
+  fill: var(--primaryColor);
+}
+
+@media (max-width: 767px) {
+  .filterItem {
+    width: 30px;
+    height: 30px;
+  }
+}
