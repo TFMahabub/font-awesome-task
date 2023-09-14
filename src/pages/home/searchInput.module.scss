@@ -1,0 +1,16 @@
+.label {
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid var(--primaryColor);
+  padding: 20px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.searchIcon {
+  fill: var(--primaryColor);
+  width: 25px;
+  height: 25px;
+}
